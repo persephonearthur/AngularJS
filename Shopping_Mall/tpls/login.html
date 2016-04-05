@@ -1,0 +1,47 @@
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<div class="panel-title">Login</div>
+	</div>
+	<div class="panel-body">
+		<div class="row">
+			<div class="col-md-12">
+				<form class="form-horizontal" role="form">
+					<div class="form-group">
+						<label class="col-md-2 control-label">
+							E-mail：
+						</label>
+						<div class="col-md-8">
+							<input type="e-mail" class="form-control" placeholder="Recommend Gmail" ng-model="email">
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<label class="col-md-2 control-label">
+							Password：
+						</label>
+						<div class="col-md-8">
+							<input type="password" class="form-control" placeholder="Recommend Alphabet + Number" ng-model="password">
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<div class="col-md-offset-2 col-md-10">
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" ng-model="autoLogin">Auto Login {{password}}
+								</label>
+							</div>
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<div class="col-md-offset-2 col-md-10">
+							<a ui-sref="page" class="btn btn-success">Login</a>
+							<button class="btn btn-default">Register</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>

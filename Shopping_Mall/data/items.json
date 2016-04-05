@@ -1,0 +1,36 @@
+﻿[{
+    "id": "1",
+    "serial": "001",
+    "company": "Apple",
+    "product": "iPhone 6",
+    "price": "1000",
+    "amount": "100"
+}, {
+    "id": "2",
+    "serial": "002",
+    "company": "Apple",
+    "product": "iPhone 6S",
+    "price": "2000",
+    "amount": "100"
+}, {
+    "id": "3",
+    "serial": "003",
+    "company": "Samsung",
+    "product": "S7",
+    "price": "3000",
+    "amount": "100"
+}, {
+    "id": "4",
+    "serial": "004",
+    "company": "Samsung",
+    "product": "S7 Edge",
+    "price": "4000",
+    "amount": "100"
+}, {
+    "id": "5",
+    "serial": "005",
+    "company": "Samsung",
+    "product": "Note",
+    "price": "5000",
+    "amount": "100"
+}]

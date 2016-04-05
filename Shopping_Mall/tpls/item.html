@@ -1,0 +1,36 @@
+<div ng-controller="pageCtrl">
+    <div class="row">
+        <div class="col-md-12">
+		    <div class="list-group">
+				<a class="list-group-item active">Item</a>
+			</div>
+
+			<table class="table">
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>Serial</th>
+						<th>Company</th>
+						<th>Product</th>
+						<th>Price</th>
+						<th>Amount</th>
+						<th></th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr ng-repeat="x in items">
+						<th>{{x.id}}</th>
+						<th>{{x.serial}}</th>
+						<th>{{x.company}}</th>
+						<th>{{x.product}}</th>
+						<th>{{x.price|currency}}</th>
+						<th>{{amount}}</th>
+						<th><button ng-click="amount = amount - 1">-</button></th>
+						<th><button ng-click="amount = amount + 1">+</button></th>
+					</tr>
+				</tbody>
+			</table>
+		</div>		
+	</div>
+</div>
